@@ -1,0 +1,11 @@
+plotly
+mlflow
+dagshub
+pandas
+numpy
+maplotlib
+scikit-learn
+seaborn
+fastapi
+uvicorn
+python-dotenv
