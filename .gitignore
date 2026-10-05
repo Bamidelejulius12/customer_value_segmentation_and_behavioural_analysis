@@ -6,6 +6,8 @@ __pycache__/
 
 # env
 customer_env/
+customer_data/
+logs/
 
 # C extensions
 *.so
