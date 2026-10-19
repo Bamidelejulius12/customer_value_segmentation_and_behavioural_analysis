@@ -63,6 +63,3 @@ def DataCleaning(customer_transaction_data):
 
 
 
-customer_transaction_data = DataIngestion()
-customer_transaction_data = DataValidation(customer_transaction_data)
-cleaned_customer_transaction_data = DataCleaning(customer_transaction_data)

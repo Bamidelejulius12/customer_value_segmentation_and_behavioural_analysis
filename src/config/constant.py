@@ -21,3 +21,12 @@ currency_to_asset = {
     "BTC": "BTC",
     "ETH": "ETH",
 }
+
+FX_TO_GBP = {
+    "GBP": 1.0, 
+             "EUR": 0.85, 
+             "USD": 0.78, 
+             "USDT": 0.78,
+             "BTC": 42_000.0, 
+             "ETH": 2_300.0
+             }
