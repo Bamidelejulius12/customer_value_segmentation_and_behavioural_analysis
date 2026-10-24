@@ -14,6 +14,7 @@ load_dotenv(override=True)
 
 
 # remote accessibility of mlflow dagshub
+
 def setup_mlflow():
     dagshub_token = os.getenv("MLFLOW_TOKEN")
     if not dagshub_token:
@@ -23,9 +24,9 @@ def setup_mlflow():
     os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 
     dagshub_url = "https://dagshub.com"
-    repo_owner='babatundejulius911', 
+    repo_owner='babatundejulius91' 
     repo_name='customer_value_segmentation_and_behavioural_analysis'
 
-    mlflow.set_tracking_uri(f"{dagshub_url}/{repo_owner}/{repo_name}.mlflow")
+    mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
     mlflow.set_experiment("vault_chain_customer_segmentation_project")
 
