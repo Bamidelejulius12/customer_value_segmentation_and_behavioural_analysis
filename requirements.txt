@@ -3,7 +3,7 @@ mlflow
 dagshub
 pandas
 numpy
-maplotlib
+matplotlib
 scikit-learn
 seaborn
 fastapi
