@@ -26,6 +26,6 @@ def setup_mlflow():
     repo_owner='babatundejulius911', 
     repo_name='customer_value_segmentation_and_behavioural_analysis'
 
-    mlflow.set_tracking_uri(f"{dagshub_url}/{repo_owner}/{repo_name}")
+    mlflow.set_tracking_uri(f"{dagshub_url}/{repo_owner}/{repo_name}.mlflow")
     mlflow.set_experiment("vault_chain_customer_segmentation_project")
 
