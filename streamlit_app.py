@@ -249,9 +249,7 @@ st.divider()
 )
 
 
-# ==================================================
 # TAB 1: MODEL RETRAINING
-# ==================================================
 with retrain_tab:
     st.header("Model Retraining")
 
@@ -354,9 +352,7 @@ with retrain_tab:
         st.json(st.session_state.last_retrain)
 
 
-# ==================================================
 # TAB 2: SEGMENT ANALYTICS
-# ==================================================
 with segment_tab:
     st.header("Customer Segment Analytics")
 
@@ -396,9 +392,7 @@ with segment_tab:
         )
 
 
-# ==================================================
 # TAB 3: CUSTOMER ANALYTICS
-# ==================================================
 with customer_tab:
     st.header("Customer Value Analytics")
 
@@ -420,9 +414,7 @@ with customer_tab:
     )
 
 
-# ==================================================
 # TAB 4: TRANSACTION ANALYTICS
-# ==================================================
 with transaction_tab:
     st.header("Transaction Analytics")
 

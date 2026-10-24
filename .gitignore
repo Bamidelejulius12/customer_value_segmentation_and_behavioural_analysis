@@ -6,8 +6,10 @@ __pycache__/
 
 # env
 customer_env/
-customer_data/
+customer_data/artifacts/*.csv
 logs/
+.env
+vault_chain_access_key.pem
 
 # C extensions
 *.so
